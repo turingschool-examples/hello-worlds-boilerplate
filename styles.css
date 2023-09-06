@@ -7,6 +7,9 @@
 }
 
 body {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100vh;
   padding: 20px;
 }
 
@@ -21,6 +24,12 @@ h1 {
   font-style: italic;
   letter-spacing: 2px;
   margin-top: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .quiz {
@@ -57,4 +66,16 @@ button:disabled {
   color: cornflowerblue;
   font-size: 25px;
   font-weight: bold;
+}
+
+aside {
+  width: 30vw;
+  align-self: center;
+}
+
+.score {
+  color: cornflowerblue;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
 }
