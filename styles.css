@@ -8,11 +8,20 @@
 
 h1 {
   color: cornflowerblue;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+
+.description {
+  color: gray;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-top: 0;
 }
 
 .quiz {
   border: 5px solid cornflowerblue;
-  margin: auto;
+  margin: 30px auto;
   padding: 20px;
   width: 50%;
 }
