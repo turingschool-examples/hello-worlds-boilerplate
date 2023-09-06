@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+.quiz {
+  border: 5px solid cornflowerblue;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+}
+
+.hint {
+  font-size: 10px;
+}
+
+.phrase {
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: azure;
+  border: 3px solid cornflowerblue;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+button:disabled {
+  background-color: gray;
+  border-color: darkslateblue;
+}
+
+.feedback {
+  color: cornflowerblue;
+  font-size: 25px;
+  font-weight: bold;
+}

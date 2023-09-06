@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hello Worlds</title>
+  </head>
+  <body>
+    <main>
+      <h1>Hello Worlds</h1>
+      <p class="description">A Language Game</p>
+      <section class="quiz">
+        <p class="hint">What language is this phrase in?</p>
+        <h2 class="phrase"></h2>
+        <section class="choices">
+          <p class="hint">Click the language you think it is!</p>
+          <button class="guess1"></button>
+          <button class="guess2"></button>
+          <button class="guess3"></button>
+        </section>
+      </section>
+      <section class="results">
+        <h3 class="answer"></h3>
+        <p class="feedback"></p>
+        <button class="reset" hidden>Guess again!</button>
+      </section>
+    </main>
+    <script src="./src/data.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
