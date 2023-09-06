@@ -45,6 +45,7 @@ button {
 button:disabled {
   background-color: gray;
   border-color: darkslateblue;
+  color: black;
 }
 
 .feedback {
