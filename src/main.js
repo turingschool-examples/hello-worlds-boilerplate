@@ -25,8 +25,3 @@ function shuffle(array) {
   return array;
 }
 
-function updateQuestion() {
-  shuffle(data);
-  currentQuestion = data.shift();
-}
-
